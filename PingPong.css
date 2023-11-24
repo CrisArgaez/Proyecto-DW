@@ -1,0 +1,41 @@
+body, html{
+    height: 100%;
+    background: #FFB946;
+}
+
+#pelota{
+    width: 20px;
+    height: 20px;
+    background: #6FFA31;
+    position: absolute;
+    left: 10px;
+    top: 0px;
+    border: 2px solid white;
+    border-radius: 10px;  
+}
+
+#barra1{
+    width: 20px;
+    height: 100px;
+    background-color: beige;
+    border: 2px solid;
+    top: 20px;
+    float: left;
+    position: absolute;
+}
+
+#barra2{
+    width: 20px;
+    height: 100px;
+    background-color: beige;
+    border: 2px solid;
+    top: 20px;
+    right: 0px;
+    position: absolute;
+}
+
+#red{
+    width: 50%;
+    border-right: white solid 5px;
+    height: 100%;
+}
